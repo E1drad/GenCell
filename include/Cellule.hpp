@@ -1,8 +1,8 @@
-/*
- *  Cellule.hpp
- *
- *  Created on: 24 nov. 2016
- *  Author: Charles BEGAUDEAU
+/**
+ * @file Cellule.cpp
+ * @author Montalvo Araya, Charles-Eric Bégaudeau, Marie Delavergne, François Hallereau, Camille Le Luet, Sullivan Pineau, Charlène Servantie, Sébastien Vallée
+ * @since 2016
+ * @brief Définition de la classe Cellule
  *  $Revision$
  *  $LastChangedDate$
  */
@@ -23,16 +23,17 @@ private :
 	std::vector<Entite*> getEntitesAdjacentes();
 
 public :
-	Cellule();
+	Cellule(Entite* entite, std::vector<Cellule*> celluleAdjacentes);
+	Cellule(Entite* entite);
 	~Cellule();
-	
+
 	void initialiserCelluleAdjacentes(std::vector<Cellule*> celluleAdjacentes);
 	Cellule* iteration();
-
+	bool equals(Cellule cellule);
 	std::vector<Cellule*> getCellulesAdjacentes();
 	Entite* getEntite();
 	Apparence* getApparence();
-	void setEntite(Entite entite);
+	void setEntite(Entite* entite);
 
 };
 

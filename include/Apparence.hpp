@@ -1,12 +1,12 @@
-/*
- * 	Apparence.hpp
- *
- *  Created on: 24 nov. 2016
- *  Author: Charles BEGAUDEAU
+/**
+ * @file Apparence.hpp
+ * @author Montalvo Araya, Charles-Eric Bégaudeau, Marie Delavergne, François Hallereau, Camille Le Luet, Sullivan Pineau, Charlène Servantie, Sébastien Vallée
+ * @since 2016
+ * @brief Définition de la classe Apparence
  *  $Revision$
  *  $LastChangedDate$
  */
- 
+
 #ifndef APPARENCE_HPP_
 #define APPARENCE_HPP_
 
@@ -18,7 +18,7 @@ private :
 public :
 	Apparence(char visuel);//Test only
 	~Apparence();
-	
+
 	char getApparence();//Test only
 };
 
@@ -27,11 +27,11 @@ public :
 
 class Apparence {
 private :
-	
+
 public :
 	Apparence();
 	~Apparence();
-	
+
 };
 */
 #endif /* APPARENCE_HPP_ */

@@ -7,17 +7,21 @@
  *  $LastChangedDate$
  */
 
-#include "../include/Controleur.hpp"
-	/*
-	 *
-	 */
-	Controleur::Controleur(){
 
-	}
+#ifndef CONTROLEUR_HPP_
+#define CONTROLEUR_HPP_
 
-	/*
-	 *
-	 */
-	Controleur::~Controleur(){
+#include <string>
 
-	}
+class Controleur {
+private :
+
+
+public :
+	Controleur();
+	~Controleur();
+
+};
+
+
+#endif /* CONTROLEUR_HPP_ */
