@@ -2,3 +2,10 @@ language: cpp
 compiler: g++
 install: make
 os: linux
+sudo: required
+dist: trusty
+before_install:
+- sudo apt-get install valgrind
+branches:
+  only:
+   - master
