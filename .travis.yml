@@ -1,4 +1,5 @@
 language: cpp
 compiler: g++
 install: make
+os: linux
 ./make
